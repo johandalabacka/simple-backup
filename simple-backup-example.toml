@@ -1,0 +1,15 @@
+# Rename this file to simple-backup.toml
+# Change the values to match your requirements
+# And put it in /etc
+
+
+[remote]
+server = "myserver.com"
+path = "/home/myusername/backups"
+user = "myusername"
+
+[local]
+# This is a typical mac os settings
+basepath = "/Users/myusername"
+paths = ["Documents", "Desktop"]
+logpath = "/Users/myusername/Library/Logs/simple-backup.log"
